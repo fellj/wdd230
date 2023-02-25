@@ -35,7 +35,7 @@ main{
 
 .heroImg {
 width: 100%;
-height: auto;
+/*height: auto;*/
 grid-column: 2/4;
 grid-row: 1/3;
 
