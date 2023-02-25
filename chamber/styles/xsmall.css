@@ -218,7 +218,7 @@ nav a:hover {
 }
 
 img{
-    width: 100%;
+    /* width: 100%; */
     /* width: 1000px; */
     height: auto;
     justify-content: center;
