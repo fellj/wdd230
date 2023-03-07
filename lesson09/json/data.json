@@ -1,0 +1,94 @@
+{
+    "businesses": [
+      {
+        "companyname": "Baywatch Dolphin Tours",
+        "contactname": "Lori Ferro",
+        "phone": "(832)-859-4557",
+        "membershiplevel": "Admiral",
+        "address": "2100 Harborside Dr",
+        "category": "Arts, Culture & Entertainment",
+        "businessurl": "https://www.baywatchdolphintours.com/",
+        "imageurl": "https://i0.wp.com/www.baywatchdolphintours.com/wp-content/uploads/2022/09/new-boat-6.jpg"
+      },
+      {
+        "companyname": "Martin Energy Services LLC",
+        "contactname": "Annette Neal",
+        "phone": "(800)962-8307",
+        "membershiplevel": "Ensign",
+        "address": "Three Riverway, Suite 400, Houston, TX 77056",
+        "category": "Manufacturing, Production & Wholesale",
+        "businessurl": "https://themartincompanies.com/martin-energy-services-llc/",
+        "imageurl": "http://staging.themartincompanies.com/wp-content/uploads/2016/10/mes_website_header.png"
+      },
+      {
+        "companyname": "The Animal Clinic",
+        "contactname": "Bonnie Stark",
+        "phone": "(409)763-6484",
+        "membershiplevel": "Ensign",
+        "address": "701 Broadway, Galveston, TX 77550",
+        "category": "Pets & Veterinary",
+        "businessurl": "https://animalclinic.com/",
+        "imageurl": "https://animalclinic.com/wp-content/uploads/2017/12/logo-1.png"
+      },
+      {
+        "companyname": "Gaido's Seafood Restaurant",
+        "contactname": "Nancy Kitchel",
+        "phone": "(409)761-5512",
+        "membershiplevel": "Commander",
+        "address": "3828 Seawall Blvd, Galveston, TX 77550",
+        "category": "Restaurants, Food & Beverages",
+        "businessurl": "https://gaidos.com/",
+        "imageurl": "http://www.gaidos.com/wp-content/uploads/2018/12/gaidos_logo_new.png"
+      },
+      {
+        "companyname": "La King's Confectionary",
+        "contactname": "Ernest Torres",
+        "phone": "(409)762-6100",
+        "membershiplevel": "Ensign",
+        "address": "2323 Strand, Galveston, TX 77550-1517",
+        "category": "Shopping, Specialty & Retail",
+        "businessurl": "https://lakingsconfectionery.com/",
+        "imageurl": "https://cdn.shortpixel.ai/spai/w_200+q_glossy+ret_img+to_webp/http://lakingsconfectionery.com/wp-content/uploads/2018/07/LaKings.png"
+      },
+      {
+        "companyname": "Galveston Party Boats, Inc.",
+        "contactname": "William Fell",
+        "phone": "(409)763-5423",
+        "membershiplevel": "Admiral",
+        "address": "Pier 19, Galveston, TX 77550",
+        "category": "Sports & Recreation",
+        "businessurl": "https://www.galvestonpartyboatsinc.com/",
+        "imageurl": "https://images.squarespace-cdn.com/content/v1/58d81e17a5790a257a960a31/1531763432653-LLO51PRSE7VEX2D6DVVQ/gpb_logooncolor.png"
+      },
+      {
+        "companyname": "Galveston Flooring & Furniture",
+        "contactname": "Woody Turpentine",
+        "phone": "(409)762-3213",
+        "membershiplevel": "Ensign",
+        "address": "4214 Broadway, Galveston, TX 77550",
+        "category": "Home & Garden",
+        "businessurl": "https://www.galvestonfurniture.com/index.html",
+        "imageurl": "https://www.galvestonfurniture.com/images/logo.svg"
+      },
+      {
+        "companyname": "Galveston Island Storage",
+        "contactname": "Plenty Room",
+        "phone": "(855)222-5114",
+        "membershiplevel": "Ensign",
+        "address": "202 37th St, Galveston, TX 77550",
+        "category": "Real Estate, Moving & Storage",
+        "businessurl": "https://www.galvestonislandstorage.com/",
+        "imageurl": "https://www.galvestonislandstorage.com/assets/images/logo.png"
+      },
+      {
+        "companyname": "Bolivar Peninsula Tourism and Visitors Center",
+        "contactname": "Sandy Shell",
+        "phone": "(409)684-6231",
+        "membershiplevel": "None",
+        "address": "2275 Hwy 87, Suite 10, Crystal Beach, TX 77650",
+        "category": "Travel",
+        "businessurl": "https://www.bolivarpeninsulatexas.com/",
+        "imageurl": "https://www.bolivarpeninsulatexas.com/Themes/Default/Images/logo.svg"
+      }
+    ]
+  }

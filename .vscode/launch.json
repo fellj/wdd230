@@ -5,6 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Open directory.html",
+            "request": "launch",
+            "type": "msedge",
+            "file": "c:\\Users\\John Fell\\Source\\Repos\\wdd230-projects\\wdd230\\lesson09\\directory.html"
+        },    
+        {
             "name": "Open prophets.html",
             "request": "launch",
             "type": "msedge",
