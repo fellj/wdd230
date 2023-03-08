@@ -1,3 +1,6 @@
+// Business Directory Data in JSON format
+const dataURL = 'https://fellj.github.io/wdd230/lesson09/json/data.json';
+
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
@@ -17,17 +20,12 @@ function showList() {
 	display.classList.remove("grid");
 } 
 
-// Business Directory Data in JSON format
-//const dirData = "../json/data.json";
-
-
-
 // Fetches data from the json source url using await.
-function getDirectoryData() {
-
-    const data = JSON.parse(dirData);
-    displayBusinesses(data.businesses);
-  }
+async function getDirectoryData() {
+  const response = await fetch(dataURL);
+  const data = await response.json();
+  displayBusinesses(data.businesses);
+}  
 
 getDirectoryData();
 
@@ -42,14 +40,15 @@ const displayBusinesses = (businesses) => {
 
         // Create elements to add to the div.cards element
         let card     = document.createElement('section');
-        let h2       = document.createElement('h2');
+        let h3       = document.createElement('h3');
         let logo     = document.createElement('img');
         let para1    = document.createElement('p');
+        let url      = document.createElement('a');
 
 
         // Build the h2 content out to show the company name
         // Finish the template string
-        h2.textContent = `${business.companyname} `;
+        h3.textContent = `${business.companyname} `;
 
         // Build the paragraph content with contact name and phone number
         para1.style.textAlign = "center";
@@ -57,20 +56,26 @@ const displayBusinesses = (businesses) => {
         para1.innerHTML      += " <br> "
         para1.innerHTML      += `Phone Number: ${business.phone}`;
         para1.innerHTML      += " <br> "
-        para1.innerHTML      += `Membership Level: ${business.membershiplevel}`
+        para1.innerHTML      += `Membership Level: ${business.membershiplevel}`;
+        para1.innerHTML      += " <br> "
+        para1.innerHTML      += `<a href="${business.businessurl}" target="_blank"> Company Website</a>`;
 
+        // Build the company url
+        url.setAttribute('href', business.businessurl);
+        url.setAttribute('target', "_blank");
 
         // Build the image portrait by setting all the relevant attributes
         logo.setAttribute('src', business.imageurl);
         logo.setAttribute('alt', `Logo for ${business.companyname} `);
         logo.setAttribute('loading', 'lazy');
-        logo.setAttribute('width', '340');
-        logo.setAttribute('height', '440');
+        logo.setAttribute('width', '250');
+        logo.setAttribute('height', '300');
         
         
         // Append the section(card) with the created elements
-        card.appendChild(h2);
+        card.appendChild(h3);
         card.appendChild(para1);
+        card.appendChild(url);
         card.appendChild(logo);
         
         // Append the card to the cards output element
