@@ -71,67 +71,11 @@
   </nav>
 
     <main>
-      <!-- <div class="heroImgHolder">
-      
-        <picture class="heroImg">
-        <picture>
-          <source
-            media="(min-width: 560px)"
-            srcset="images/Galveston-Island-Hero.jpg"
-          />
-          <source
-            media="(min-width: 500px)"
-            srcset="images/wdd230-orgMEDIUM.jpg"
-          />
-          <source
-            media="(min-width: 1024px)"
-            srcset="images/wdd230LARGE.jpg"
-          />
-          <img src="images/wdd230LARGE.jpg" alt="Team Meeting" />
-        </picture>
-      </div> -->
+     <div class="cuform">
+      <input type="button" class="button" value="Submit">
 
+     </div>
 
-
-
-
-
-    <div class="heroImgHolder">
-       <!-- Comment original img tag code for week 06 activity --
-      <picture class="heroImg">
-      <img src="images/Galveston-Island-Hero.jpg" alt="Galveston Pleasure Pier at sunset">
-      </picture>    
-          <section class="join">
-            <h3>JOIN NOW</h3>
-            <button onclick="window.location.href='#';"></button>
-          </section>
-       -->
-      
-      <!-- This version of code is not working, despite Mozilla's knowledge base article
-        <img 
-             srcset="images/wdd230-orgSMALL.jpg 260w, images/wdd230-orgMEDIUM.jpg 480w, images/wdd230LARGE.jpg 800w"
-             sizes="(max-width: 800px) 260px, 480px, 800px" 
-             src="images/wdd230LARGE.jpg"
-             alt="Galveston Chamber Responsive Hero Image Week 06 Activity"
-        />
-
-       -->
-      
-      <!-- Stack overflow suggests this approach -->
-      <picture class="heroImg">
-        <source srcset="images/wdd230LARGE.jpg" media="(min-width: 800px)" />
-        <source srcset="images/wdd230-orgMEDIUM.jpg" media="(min-width: 400px)" />
-        <source srcset="images/wdd230-orgSMALL.jpg" media="(min-width: 260px)" />
-        <img src="images/wdd230-orgSMALL.jpg" 
-             alt="Galveston Chamber Responsive Hero Image Week 06 Activity" 
-             
-        />
-        <!-- style="width:auto;" -->
-        <!-- class="heroImg" -->
-        
-      </picture>
-      
-    </div>
       
       
 <div id="event">  
@@ -151,7 +95,7 @@
 </div>
 <div id="news">
   <h2>Press Box 📰</h2>
-  <h3>178th Annual Chamber Celebtration</h3>
+  <h3>178th Annual Chamber Celebration</h3>
   <p>The Galveston Chamber is proud to announce new additions to the entertainment lineup for this year's festival.</p>
 
 </div>
@@ -161,10 +105,38 @@
 </div>
 <section class="spotlight-events">
 <div id="spotlights">
-  <div class="businesses">
-    <!-- Include spotlight businesses here -->
+
+  <div class="spotlight1">
+    <div class="picdiv">
+    <img class="spotlightpic" src="images/lemonade2.png" alt="lemons on a tree">
+    </div>
+    
+    <h3>
+      Youth Entreprenuership
+    </h3>
+    <p>Lemonade Day Galveston County</p>
+    <p>May 06 2023</p>
   </div>
- 
+  <div class="spotlight2">
+    <div class="picdiv">
+    <img class="spotlightpic" src="images/golf2.png" alt="golf ball on the green">
+  </div>
+    <h3>Golf Tournament</h3>
+    <p>24th Annual Golf Tournament</p>
+    <p>May 15 2023</p>
+    
+  </div>
+  <div id="spotlight3">
+    <div class="picdiv">
+    <img class="spotlightpic" src="images/women2.png" alt="woman sitting in a auditorium">
+  </div>
+    <h3>
+      Women's Conference
+    </h3>
+    <p>16th Annual Women's Conference</p>
+    <p>September 16 2023</p>
+
+  </div>
 </div>
 </section>
 <!-- </div> -->
@@ -194,7 +166,7 @@
   </footer>
   <script src="scripts/main.js"></script>
   <script src="scripts/windchill.js"></script>
-  <script src="scripts/spotlight.js"></script>
-  
+  <script src="scripts/spotlight.js" type="text/javascript"></script>
+
 </body>
 </html>

@@ -308,15 +308,17 @@ main section {
  }
 
  button{
-  border:none;
+  border:#16697A;
+  color: black;
   background-color: #ffa62B;
   font-family: 'Sofia Sans', sans-serif;
-  font-weight: 900;
+  font-weight: 1900;
   cursor: pointer;
+  font-size: 2rem;
   
  }
  .button:hover {
-  background-color:#002ead;
+  background-color:#489FB5;
   transition: 0.7s;
 }
 .bannerClose:hover{
