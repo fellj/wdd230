@@ -60,8 +60,8 @@ const displayBusinesses = (businesses) => {
         logo.setAttribute('src', business.imageurl);
         logo.setAttribute('alt', `Logo for ${business.companyname} `);
         logo.setAttribute('loading', 'lazy');
-        logo.setAttribute('width', '250');
-        logo.setAttribute('height', '300');
+        logo.setAttribute('width', '150');
+        logo.setAttribute('height', '200');
         
         
         // Append the section(card) with the created elements
