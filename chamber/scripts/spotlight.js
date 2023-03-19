@@ -3,19 +3,20 @@ const dataURL = 'https://fellj.github.io/wdd230/lesson09/json/data.json';
 
 const display = document.querySelector("#spotlights");
 
+// Select one or more random numbers from an array
+function random(mn, mx) {
+  return Math.floor(Math.random() * (mx - mn) + mn);
+}
+
 // Fetches data from the json source url using await.
 async function getDirectoryData() {
   const response = await fetch(dataURL);
   const data = await response.json();
 
   // Select three random business items
-  const random01 = Math.floor(Math.random() * data.businesses.length);
-  const random02 = Math.floor(Math.random() * data.businesses.length);
-  const random03 = Math.floor(Math.random() * data.businesses.length);
-
-  // Combine into json array
-  const businesses = [data.businesses[random01], data.businesses[random02], data.businesses[random03]];
-
+  const randomBusinesses = data.businesses[random(1,3) - 1];
+  const businesses = randomBusinesses;
+  
   displayBusinesses(businesses);
 }  
 

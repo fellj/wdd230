@@ -33,7 +33,7 @@ async function getDirectoryData() {
   // Combine into json array
   const businesses = [data.businesses[random01], data.businesses[random02], data.businesses[random03]];
 
-  displayBusinesses(businesses);
+  displayBusinesses(data.businesses);
 }  
 
 getDirectoryData();
