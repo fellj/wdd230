@@ -4,8 +4,10 @@ const dataURL = 'https://fellj.github.io/wdd230/lesson09/json/data.json';
 const display = document.querySelector("#spotlights");
 
 // Select one or more random numbers from an array
-function random(mn, mx) {
-  return Math.floor(Math.random() * (mx - mn) + mn);
+function getMultipleRandom(arr, num) {
+  const shuffled = [...arr].sort(() => 0.5 - Math.random());
+
+  return shuffled.slice(0, num);
 }
 
 // Fetches data from the json source url using await.
@@ -14,10 +16,9 @@ async function getDirectoryData() {
   const data = await response.json();
 
   // Select three random business items
-  const randomBusinesses = data.businesses[random(1,3) - 1];
-  const businesses = randomBusinesses;
-  
-  displayBusinesses(businesses);
+  const inputBusinesses = getMultipleRandom(data.businesses, 3)
+
+  displayBusinesses(inputBusinesses);
 }  
 
 getDirectoryData();
