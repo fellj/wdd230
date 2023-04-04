@@ -23,6 +23,12 @@
             "file": "c:\\Users\\John Fell\\Source\\Repos\\wdd230-projects\\wdd230\\lesson09\\prophets.html"
         },
         {
+            "name": "Open bountiful foods",
+            "request": "launch",
+            "type": "msedge",
+            "file": "c:\\Users\\John Fell\\Source\\Repos\\wdd230-projects\\wdd230\\bountiful\\index.html"
+        },    
+        {
             "type": "msedge",
             "request": "launch",
             "name": "Open Index.html",
